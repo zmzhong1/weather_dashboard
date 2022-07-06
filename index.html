@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+    />
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+    ></script>
+    <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="p-5 text-center text-white bg-primary">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <br>
+    <div class="container.fluid p-1">
+        <div class="row">
+            <div class="col-3">
+                <h2>Search for a city:</h2>
+                    <form id="skills-form">
+                        <div class="form-group row">
+                            <div class="col">
+                                <input type="text" class="form-control" id="city-name" />
+                            </div>
+                        </div>
+                    <button type="submit" value="Search" class="btn btn-info col">
+                    Search
+                    </button>
+                    </form>
+            <!-- here is where the list goes -->
+            <br>
+            <div class="border-top" id="cities">asd</div>
+            </div>
+            <div class="col-9">
+                <div class="dayForecast border">
+                    <h3 id="location">Something</h3>
+                    <h5 id="temp">Temp: </h5>
+                    <h5 id="wind">Wind:</h5>
+                    <h5 id="humidity">Humidity: </h5>
+                    <h5 id="UV">UV Index: </h5>
+                </div>
+                <br>
+                <div class="row future-forecast">
+                    <div class="col forecast1">
+                        asd
+                    </div>
+                    <div class="col forecast2">
+                        asd
+                    </div>
+                    <div class="col forecast3">
+                        asd
+                    </div>
+                    <div class="col forecast4">
+                        asd
+                    </div>
+                    <div class="col forecast5">
+                        asd
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+</body>
+<script src="./assets/script.js"></script>
+</html>
