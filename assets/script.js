@@ -12,7 +12,7 @@ let cityList = [];
 
 // Fetches API and insert requested criteria content on the HTML
 function getApi(userInput) {
-    let queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + userInput + "&appid=" + APIKey;
+    let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + userInput + "&appid=" + APIKey;
     fetch(queryURL) 
         .then(function (response) {
             return response.json();
