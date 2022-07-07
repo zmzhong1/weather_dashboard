@@ -35,44 +35,63 @@
         <div class="row">
             <div class="col-3">
                 <h2>Search for a city:</h2>
-                    <form id="skills-form">
                         <div class="form-group row">
                             <div class="col">
-                                <input type="text" class="form-control" id="city-name" />
+                                <input type="text" class="col" id="city-name"></input>;
                             </div>
                         </div>
-                    <button type="submit" value="Search" class="btn btn-info col">
+                    <button type="submit" class="btn btn-info col" id="fetch-button">
                     Search
                     </button>
-                    </form>
             <!-- here is where the list goes -->
-            <br>
-            <div class="border-top" id="cities">asd</div>
+            <br><br>
+            <ul class="border-top" id="cities"></ul>
             </div>
             <div class="col-9">
                 <div class="dayForecast border">
-                    <h3 id="location">Something</h3>
+                    <h3 id="locationName">City Name</h3>
                     <h5 id="temp">Temp: </h5>
                     <h5 id="wind">Wind:</h5>
                     <h5 id="humidity">Humidity: </h5>
                     <h5 id="UV">UV Index: </h5>
                 </div>
                 <br>
+                <h3>5-Day Forecast:</h3>
                 <div class="row future-forecast">
-                    <div class="col forecast1">
-                        asd
+                    <div class="col forecast text-light">
+                        <div id="forecastDate0"></div>
+                        <div id="icon0"></div>
+                        <div id="forecastTemp0"></div>
+                        <div id="forecastWind0"></div>
+                        <div id="forecastHumidity0"></div>
                     </div>
-                    <div class="col forecast2">
-                        asd
+                    <div class="col forecast text-light">
+                        <div id="forecastDate1"></div>
+                        <div id="icon1"></div>
+                        <div id="forecastTemp1"></div>
+                        <div id="forecastWind1"></div>
+                        <div id="forecastHumidity1"></div>
                     </div>
-                    <div class="col forecast3">
-                        asd
+                    <div class="col forecast text-light">
+                        <div id="forecastDate2"></div>
+                        <div id="icon2"></div>
+                        <div id="forecastTemp2"></div>
+                        <div id="forecastWind2"></div>
+                        <div id="forecastHumidity2"></div>
                     </div>
-                    <div class="col forecast4">
-                        asd
+                    <div class="col forecast text-light">
+                        <div id="forecastDate3"></div>
+                        <div id="icon3"></div>
+                        <div id="forecastTemp3"></div>
+                        <div id="forecastWind3"></div>
+                        <div id="forecastHumidity3"></div>
                     </div>
-                    <div class="col forecast5">
-                        asd
+                    <div class="col forecast text-light">
+                        <div id="forecastDate4"></div>
+                        <div id="icon4"></div>
+                        <div id="forecastTemp4"></div>
+                        <div id="forecastWind4"></div>
+                        <div id="forecastHumidity4"></div>
                     </div>
                 </div>
             </div>
